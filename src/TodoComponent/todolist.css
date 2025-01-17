@@ -1,0 +1,60 @@
+
+
+.todoListContainer{
+    display: flex;
+    align-items: center;
+    /* padding: 15px; */
+    justify-self: center;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem 0rem 1rem 0rem ;
+    background-color:#7e78d4  ;
+    gap: 20px;
+    justify-content: space-between;
+   min-height: 5rem;
+   position: relative;
+   
+
+}
+.tasks{
+    padding: 1rem;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+   
+}
+ .btnContainer{
+    position: absolute;
+    display: flex;
+    bottom: 0px;
+    right: 0;
+  
+    /* margin: 10px; */
+ }
+  .btn{
+    padding: 9px;
+    margin: 3px;
+    border-radius: 5px;
+
+  }
+  @media screen and (min-width: 1024px) {
+    .todoListContainer {
+        margin: 1rem 12rem 1rem 12rem ;
+   min-width: 35rem;
+
+
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .todoListContainer{
+       width: 90%;
+       overflow-x: hidden;
+    }
+    .btn{
+        font-size: 19px;
+    }
+    .tasks{
+        font-size: 19px;
+    }
+  }

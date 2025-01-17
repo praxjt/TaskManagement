@@ -1,0 +1,66 @@
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #1C0329;
+    padding: 20px;
+    color: #ffffff;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+.inputContainer{
+  display: flex;
+  justify-content: center;
+
+}
+  input {
+    padding: 9px;
+    border: none;
+    background-color: #d8c8e8;
+    border-radius: 10px 0px 0px  10px ;
+    font-size: 1rem;
+    z-index:1;
+  }
+  .AddTask{
+  padding: 9px;
+border-radius:  0px 10px  10px 0px;
+background-color: #007bff;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s ease;
+border: none;
+width: 50px;
+    
+  }
+  
+
+
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  
