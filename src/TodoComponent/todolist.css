@@ -40,11 +40,7 @@
   }
   @media screen and (min-width: 1024px) {
     .todoListContainer {
-<<<<<<< HEAD
-        margin: 1rem 12rem 1rem 12rem ;
-=======
 margin: 1rem 12rem 1rem 12rem ;
->>>>>>> 4a3cb53796ca28ad5ac61feb41c6cc21743d280a
    width: 35rem;
 
 
@@ -52,15 +48,9 @@ margin: 1rem 12rem 1rem 12rem ;
   }
   @media screen and (max-width: 1024px) {
     .todoListContainer{
-<<<<<<< HEAD
-       width: 90%;
-      
-       word-break: break-word;
-=======
     width: 90%;
     word-break: break-word;
 
->>>>>>> 4a3cb53796ca28ad5ac61feb41c6cc21743d280a
     }
     .btn{
         font-size: 19px;
