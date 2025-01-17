@@ -41,7 +41,7 @@
   @media screen and (min-width: 1024px) {
     .todoListContainer {
         margin: 1rem 12rem 1rem 12rem ;
-   min-width: 35rem;
+   width: 35rem;
 
 
     }
@@ -49,7 +49,8 @@
   @media screen and (max-width: 1024px) {
     .todoListContainer{
        width: 90%;
-       overflow-x: hidden;
+      
+       word-break: break-word;
     }
     .btn{
         font-size: 19px;
